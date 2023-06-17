@@ -6,4 +6,5 @@ import java.net.Socket;
 public class ClientHandler extends Thread {
     private Socket clientSocket;
     private BufferedReader reader;
+    private PrintWriter writer;
 }
